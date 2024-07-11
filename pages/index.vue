@@ -10,7 +10,7 @@
     </div>
 </template>
 
-<script lang="js" setup>
+<script lang="ts" setup>
 import { chromium } from 'playwright';
 
 const form = reactive({
